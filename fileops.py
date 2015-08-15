@@ -1,0 +1,5 @@
+f = open('data/data1.txt', 'r')
+print f.read()
+print f.read()
+f.seek(0)
+print f.read()
